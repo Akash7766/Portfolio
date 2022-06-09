@@ -1,7 +1,11 @@
 import React from "react";
 
 const Blogs = () => {
-  return <div>This is blogs page.</div>;
+  return (
+    <div className="bg-white h-full flex justify-center items-center p-5">
+      <img src="https://i.ibb.co/7rfpznN/under-construction.png" alt="" />
+    </div>
+  );
 };
 
 export default Blogs;

@@ -1,14 +1,14 @@
 import React from "react";
-import TypeAnimation from "react-type-animation";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="bg-[#FFFFFF] h-full flex justify-center items-center flex-col">
+    <div className="bg-[#FFFFF] h-full flex justify-center items-center flex-col">
       <div className="w-full px-5 sm:px-0 sm:w-[600px] h-full flex justify-center flex-col">
-        <h2 className="text-lg text-[#BEBEBE] mb-2">
+        <h2 className="text-lg text-[#fff] mb-2">
           I am a Frontend Web Developer.{" "}
         </h2>
-        <h1 className="text-[#333333] text-4xl sm:text-6xl font-bold mb-4">
+        <h1 className="text-[#fff] text-4xl sm:text-6xl font-bold mb-4">
           Akash Rahman
         </h1>
         <p className="text-[#9E9E9E] mb-5">
@@ -18,12 +18,16 @@ const Home = () => {
           Corporis, cum!
         </p>
         <div>
-          <button className="btn btn-outline btn-success mr-5 mb-5">
+          <button className="btn btn-outline btn-info border-4 rounded-none mr-5 mb-5">
             <a href="./../../file/Minhazur__Rahman__Akash__Resume.pdf" download>
               Download Resume
             </a>
           </button>
-          <button className="btn btn-outline btn-success">Contact</button>
+          <Link to="/contact">
+            <button className="btn btn-outline btn-info border-4 rounded-none">
+              Contact
+            </button>
+          </Link>
         </div>
       </div>
     </div>
