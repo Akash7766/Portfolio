@@ -8,7 +8,9 @@ const Home = () => {
         <h2 className="text-lg text-[#BEBEBE] mb-2">
           I am a Frontend Web Developer.{" "}
         </h2>
-        <h1 className="text-[#333333] text-6xl font-bold mb-4">Akash Rahman</h1>
+        <h1 className="text-[#333333] text-4xl sm:text-6xl font-bold mb-4">
+          Akash Rahman
+        </h1>
         <p className="text-[#9E9E9E] mb-5">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident
           natus, est cupiditate sequi minima hic, facere enim odit, perspiciatis
@@ -16,7 +18,7 @@ const Home = () => {
           Corporis, cum!
         </p>
         <div>
-          <button className="btn btn-outline btn-success mr-5">
+          <button className="btn btn-outline btn-success mr-5 mb-5">
             <a href="./../../file/Minhazur__Rahman__Akash__Resume.pdf" download>
               Download Resume
             </a>

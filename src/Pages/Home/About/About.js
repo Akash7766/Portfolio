@@ -5,13 +5,13 @@ const About = () => {
   return (
     <div>
       <div className="py-10 mx-16">
-        <h2 className="text-5xl text-center border-b-2 pb-3">
+        <h2 className="text-3xl sm:text-5xl text-center border-b-2 pb-3">
           <i class="fa-solid fa-user-tie mr-3"></i>About Me
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-flow-col px-5 md:px-14 gap-8 text-white">
         <div className="col-span-8">
-          <h2 className="text-2xl font-bold mb-8 text-white">
+          <h2 className="text-lg sm:text-2xl font-bold mb-8 text-white">
             Frontend Web Developer.
           </h2>
           <p>
@@ -29,7 +29,9 @@ const About = () => {
           </p>
         </div>
         <div className="col-span-4">
-          <h2 className="text-2xl mb-5 font-bold">Personal Information</h2>
+          <h2 className="text-md sm:text-2xl mb-5 font-bold">
+            Personal Information
+          </h2>
           <p>Name: Minhazur Rahman Akash</p>
           <p>Age: 22 Years</p>
           <p>Country: Bangladesh</p>
