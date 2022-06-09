@@ -10,7 +10,7 @@ const About = () => {
         </h2>
       </div>
       <div className="grid grid-cols-1 md:grid-flow-col px-5 md:px-14 gap-8 text-white">
-        <div className="col-span-8">
+        <div className="col-span-12 md:col-span-8">
           <h2 className="text-lg sm:text-2xl font-bold mb-8 text-white">
             Frontend Web Developer.
           </h2>
@@ -28,7 +28,7 @@ const About = () => {
             Alias ab consequatur?
           </p>
         </div>
-        <div className="col-span-4">
+        <div className="col-span-12 md:col-span-4">
           <h2 className="text-md sm:text-2xl mb-5 font-bold">
             Personal Information
           </h2>
