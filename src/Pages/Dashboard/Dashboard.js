@@ -24,17 +24,17 @@ const Dashboard = () => {
           </li>
           <li className="border-b py-1">
             <Link to="resume">
-              <i class="fa-solid fa-certificate"></i>Resume
+              <i class="fa-solid fa-trophy"></i>Resume
             </Link>
           </li>
           <li className="border-b py-1">
             <Link to="portfolio">
-              <i class="fa-solid fa-b py-1riefcase-medical"></i>Portfolio
+              <i class="fa-solid fa-briefcase-medical"></i>Portfolio
             </Link>
           </li>
           <li className="border-b py-1">
             <Link to="blog">
-              <i class="fa-solid fa-b py-1ook"></i>Blog
+              <i class="fa-brands fa-usps"></i>Blog
             </Link>
           </li>
           <li className="border-b py-1">

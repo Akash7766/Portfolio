@@ -4,7 +4,7 @@ import { Typewriter } from "react-simple-typewriter";
 const Home = () => {
   return (
     <div className="bg-[#FFFFFF] h-full flex justify-center items-center flex-col">
-      <div className="w-[600px] h-full flex justify-center flex-col">
+      <div className="w-full px-5 sm:px-0 sm:w-[600px] h-full flex justify-center flex-col">
         <h2 className="text-lg text-[#BEBEBE] mb-2">
           I am a Frontend Web Developer.{" "}
         </h2>

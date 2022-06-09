@@ -1,14 +1,15 @@
 import React from "react";
+import Services from "./Services";
 
 const About = () => {
   return (
     <div>
       <div className="py-10 mx-16">
-        <h2 className="text-5xl text-center border-b-2 pb-3 text-white">
+        <h2 className="text-5xl text-center border-b-2 pb-3">
           <i class="fa-solid fa-user-tie mr-3"></i>About Me
         </h2>
       </div>
-      <div className="grid grid-flow-col px-14 gap-8 text-white">
+      <div className="grid grid-cols-1 md:grid-flow-col px-5 md:px-14 gap-8 text-white">
         <div className="col-span-8">
           <h2 className="text-2xl font-bold mb-8 text-white">
             Frontend Web Developer.
@@ -36,10 +37,16 @@ const About = () => {
           <p>Email: minhazur.akash1@gmail.com</p>
           <p>Freelance: Available</p>
           <button className="btn btn-outline btn-success mt-8">
-            Download Resume
+            <a
+              href="./../../../file/Minhazur__Rahman__Akash__Resume.pdf"
+              download
+            >
+              Download Resume
+            </a>
           </button>
         </div>
       </div>
+      <Services></Services>
     </div>
   );
 };

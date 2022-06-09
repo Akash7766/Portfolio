@@ -1,7 +1,11 @@
 import { Link, Route, Routes } from "react-router-dom";
+import Blogs from "./Pages/Blog/Blogs";
+import Contact from "./Pages/Contact/Contact";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import About from "./Pages/Home/About/About";
 import Home from "./Pages/Home/Home";
+import Portfolio from "./Pages/Portfolio/Portfolio";
+import Resume from "./Pages/Resume/Resume";
 
 function App() {
   return (
@@ -30,6 +34,10 @@ function App() {
           <Route index element={<Home></Home>}></Route>
           <Route path="home" element={<Home></Home>}></Route>
           <Route path="about" element={<About></About>}></Route>
+          <Route path="resume" element={<Resume></Resume>}></Route>
+          <Route path="portfolio" element={<Portfolio></Portfolio>}></Route>
+          <Route path="blog" element={<Blogs></Blogs>}></Route>
+          <Route path="contact" element={<Contact></Contact>}></Route>
         </Route>
       </Routes>
     </div>

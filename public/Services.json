@@ -1,0 +1,26 @@
+[
+  {
+    "_id": 1,
+    "name": "Web Desing",
+    "description": "Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.",
+    "icon": "fa-solid fa-pen-nib text-3xl mr-5"
+  },
+  {
+    "_id": 1,
+    "name": "Web Development",
+    "description": "Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.",
+    "icon": "fa-solid fa-code text-3xl mr-5"
+  },
+  {
+    "_id": 1,
+    "name": "Fontend Development",
+    "description": "Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.",
+    "icon": "fa-solid fa-laptop-code text-3xl mr-5"
+  },
+  {
+    "_id": 1,
+    "name": "MERN Stack",
+    "description": "Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.",
+    "icon": "fa-brands fa-js text-3xl mr-5"
+  }
+]
