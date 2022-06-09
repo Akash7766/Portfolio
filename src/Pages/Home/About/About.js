@@ -4,7 +4,7 @@ import Services from "./Services";
 const About = () => {
   return (
     <div>
-      <div className="py-10 mx-16">
+      <div className="py-10 mx-5 md:mx-16">
         <h2 className="text-3xl sm:text-5xl text-center border-b-2 pb-3">
           <i class="fa-solid fa-user-tie mr-3"></i>About Me
         </h2>
@@ -38,7 +38,7 @@ const About = () => {
           <p>Address: Tejgaon, Dhaka 1208</p>
           <p>Email: minhazur.akash1@gmail.com</p>
           <p>Freelance: Available</p>
-          <button className="btn btn-outline btn-success mt-8">
+          <button className="btn btn-outline btn-info border-4 rounded-none mt-8">
             <a
               href="./../../../file/Minhazur__Rahman__Akash__Resume.pdf"
               download
