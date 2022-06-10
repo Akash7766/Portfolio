@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import style from "./Projects.module.css";
 
 const Projects = ({ project }) => {
@@ -9,9 +10,11 @@ const Projects = ({ project }) => {
       <div className={`${style.projects_title}`}>
         <div className="text-center">
           <h2 className="text-2xl mb-5">{name}</h2>
-          <button className="btn btn-outline btn-info rounded-none uppercase">
-            Project Details
-          </button>
+          <Link to={`/project/${_id}`}>
+            <button className="btn btn-outline btn-info rounded-none uppercase">
+              Project Details
+            </button>
+          </Link>
         </div>
       </div>
     </div>

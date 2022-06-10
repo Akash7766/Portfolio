@@ -4,7 +4,7 @@ import Projects from "./Projects";
 const Portfolio = () => {
   const [projects, setProjects] = useState([]);
   useEffect(() => {
-    fetch("projects.json")
+    fetch("Projects.json")
       .then((res) => res.json())
       .then((data) => setProjects(data));
   }, []);

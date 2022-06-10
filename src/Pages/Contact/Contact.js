@@ -1,6 +1,22 @@
 import React from "react";
+import { useForm, ValidationError } from "@formspree/react";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
+  const [state, handleSubmit] = useForm("xpzbnlob");
+  if (state.succeeded) {
+    return (
+      <div className="flex justify-center flex-col items-center text-white h-full w-full text-center gap-5">
+        <h2 className="text-2xl text center">Thanks for your message.</h2>
+        <h2 className="text-2xl text center">We reply you very soon.</h2>
+        <Link to="/">
+          <button className="btn btn-outline btn-info uppercase rounded-none">
+            Back to home
+          </button>
+        </Link>
+      </div>
+    );
+  }
   return (
     <div>
       <div className="py-10 mx-5 md:mx-16">
@@ -9,15 +25,21 @@ const Contact = () => {
         </h2>
       </div>
       <div className="w-full md:w-[700px] mx-auto p-5 " data-aos="fade-up">
-        <form>
+        <form
+          onSubmit={handleSubmit}
+          method="POST"
+          action="https://formspree.io/f/xpzbnlob"
+        >
           <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
             <div>
               <label htmlFor="" className="label">
                 Name:
               </label>
               <input
+                name="name"
                 type="text"
                 className="bg-transparent border-2 h-10 px-2 w-full"
+                required
               />
             </div>
             <div>
@@ -25,8 +47,10 @@ const Contact = () => {
                 Email:
               </label>
               <input
-                type="text"
+                name="email"
+                type="email"
                 className="bg-transparent border-2 h-10 px-2 w-full"
+                required
               />
             </div>
           </div>
@@ -34,8 +58,10 @@ const Contact = () => {
             Your Message
           </label>
           <textarea
+            name="message"
             type="text"
             className="bg-transparent border-2 w-full h-36 px-2"
+            required
           />
           <div className="text-center mt-5">
             <button className="btn btn-outline btn-info border-4 rounded-none">
