@@ -9,7 +9,10 @@ const About = () => {
           <i class="fa-solid fa-user-tie mr-3"></i>About Me
         </h2>
       </div>
-      <div className="grid grid-cols-1 md:grid-flow-col px-5 md:px-14 gap-8 text-white">
+      <div
+        className="grid grid-cols-1 md:grid-flow-col px-5 md:px-14 gap-8 text-white"
+        data-aos="fade-right"
+      >
         <div className=" md:col-span-8">
           <h2 className="text-xl sm:text-2xl font-bold mb-8 text-white">
             Frontend Web Developer.

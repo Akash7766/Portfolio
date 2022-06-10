@@ -1,14 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Typical from "react-typical";
 
 const Home = () => {
   return (
     <div className="bg-[#FFFFF] h-full flex justify-center items-center flex-col">
       <div className="w-full px-5 sm:px-0 sm:w-[600px] h-full flex justify-center flex-col">
         <h2 className="text-lg text-[#fff] mb-2">
-          I am a Frontend Web Developer.{" "}
+          I am a{" "}
+          <Typical
+            steps={["Frontend Web Developer.", 1000, "Web Designer", 1000]}
+            loop={Infinity}
+            wrapper="p"
+          />
         </h2>
-        <h1 className="text-info text-4xl sm:text-6xl font-bold mb-4">
+        <h1
+          className="text-info text-4xl sm:text-6xl font-bold mb-4"
+          data-aos="fade-up"
+        >
           Akash Rahman
         </h1>
         <p className="text-[#9E9E9E] mb-5">

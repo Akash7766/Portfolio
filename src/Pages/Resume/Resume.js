@@ -8,7 +8,10 @@ const Resume = () => {
           <i class="fa-solid fa-trophy mr-5"></i>Resume
         </h2>
       </div>
-      <div className="grid lg:grid-cols-2 lg:pt-10 pb-10 mx-5 md:mx-16 text-white gap-10">
+      <div
+        className="grid lg:grid-cols-2 lg:pt-10 pb-10 mx-5 md:mx-16 text-white gap-10"
+        data-aos="fade-left"
+      >
         <div>
           <h2 className="text-xl text-center uppercase border-b-2 inline-block mb-5">
             education

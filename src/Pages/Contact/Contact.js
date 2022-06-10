@@ -8,7 +8,7 @@ const Contact = () => {
           <i class="fa-solid fa-address-card mr-5"></i>Contact Me
         </h2>
       </div>
-      <div className="w-full md:w-[700px] mx-auto p-5 ">
+      <div className="w-full md:w-[700px] mx-auto p-5 " data-aos="fade-up">
         <form>
           <div className=" grid grid-cols-1 md:grid-cols-2 gap-5 mb-10">
             <div>
