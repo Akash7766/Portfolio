@@ -4,6 +4,7 @@ import Contact from "./Pages/Contact/Contact";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import About from "./Pages/Home/About/About";
 import Home from "./Pages/Home/Home";
+import NotFound from "./Pages/NotFound/NotFound";
 import Portfolio from "./Pages/Portfolio/Portfolio";
 import Resume from "./Pages/Resume/Resume";
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="portfolio" element={<Portfolio></Portfolio>}></Route>
           <Route path="blog" element={<Blogs></Blogs>}></Route>
           <Route path="contact" element={<Contact></Contact>}></Route>
+          <Route path="*" element={<NotFound></NotFound>}></Route>
         </Route>
       </Routes>
     </div>
