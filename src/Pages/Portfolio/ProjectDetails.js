@@ -17,6 +17,8 @@ const ProjectDetails = () => {
         <h2 className="text-3xl sm:text-5xl text-center border-b-2 pb-3 text-info">
           {project.name}
         </h2>
+
+        {/* Technology list  */}
         <h2 className="text-2xl text-white my-5">Uses Technology</h2>
         <div className="flex gap-5 flex-wrap">
           <span className="btn btn-info rounded-none cursor-default">
@@ -41,6 +43,7 @@ const ProjectDetails = () => {
             MongoDB
           </span>
         </div>
+        {/* import link  */}
         <div className="my-10">
           <h2 className="text-2xl text-white my-5">Important Links -</h2>
           <div className="flex gap-5 flex-wrap">
@@ -63,21 +66,50 @@ const ProjectDetails = () => {
             )}
           </div>
         </div>
+        {/* Screenshot  */}
         <div className="my-10">
           <h2 className="text-2xl text-white my-5">
             Some Screenshot from{" "}
             <span className="text-info">{project.name}</span>
           </h2>
           <div className="grid md:grid-cols-2 gap-10">
-            <div className="bg-info p-3">
-              <img src={project.image1} alt="" />
+            <div className="bg-info p-3 overflow-hidden">
+              <img
+                className=" hover:scale-125 transition-all "
+                src={project.image1}
+                alt=""
+              />
             </div>
-            <div className="bg-info p-3">
-              <img src={project.image1} alt="" />
+            <div className="bg-info p-3 overflow-hidden">
+              <img
+                className=" hover:scale-125 transition-all "
+                src={project.image2}
+                alt=""
+              />
             </div>
-            <div className="bg-info p-3">
-              <img src={project.image1} alt="" />
+            <div className="bg-info p-3 overflow-hidden">
+              <img
+                className=" hover:scale-125 transition-all "
+                src={project.image3}
+                alt=""
+              />
             </div>
+            <div className="bg-info p-3 overflow-hidden">
+              <img
+                className=" hover:scale-125 transition-all"
+                src={project.image4 ? project.image4 : project.image1}
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        {/* description */}
+        <div className="my-10">
+          <h2 className="text-2xl text-white my-5 font-bold">
+            About This Project -
+          </h2>
+          <div>
+            <p className="text-white text-md">{project.description}</p>
           </div>
         </div>
       </div>
