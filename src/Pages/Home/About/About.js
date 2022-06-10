@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <div className="py-10 mx-5 md:mx-16">
-        <h2 className="text-3xl sm:text-5xl text-center border-b-2 pb-3">
+        <h2 className="text-3xl sm:text-5xl text-center border-b-2 pb-3 text-info">
           <i class="fa-solid fa-user-tie mr-3"></i>About Me
         </h2>
       </div>
@@ -15,17 +15,14 @@ const About = () => {
             Frontend Web Developer.
           </h2>
           <p>
-            Dolor reprehenderit aut repudiandae maiores recusandae. Consequatur
-            dolor nisi labore commodi ipsa? Excepturi velit laboriosam at
-            voluptatibus cupiditate est vel. Dolorem praesentium itaque fugiat
-            placeat quas consequatur? Obcaecati natus rerum Consectetur
-            consectetur nesciunt nesciunt blanditiis amet? <br /> <br /> Quod
-            quis unde aliquid excepturi laudantium? Illo architecto aliquam
-            velit illo magnam neque perferendis sint Incidunt eius ipsa
-            inventore labore eos velit. Minus hic magni reiciendis
-            necessitatibus ex Quidem officia deleniti accusamus obcaecati
-            dolores. Porro culpa quibusdam impedit porro praesentium excepturi.
-            Alias ab consequatur?
+            Hi. <br />I am Minhazur Rahman Akash. I am a professional Frontend
+            Web Developer. Recently i have done some good project with MERN
+            technology. I also know basic of NodeJs , MongoDB , Express Js for
+            full stack. <br /> <br />
+            Now i am looking for a job where i can share my skill properly. I am
+            very handworking and determined. If you want to checkout my recent
+            project then please go to Portfolio page. Thank you for your time{" "}
+            {":)"} .
           </p>
         </div>
         <div className=" md:col-span-4">
