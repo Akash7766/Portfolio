@@ -8,11 +8,20 @@ const Home = () => {
       <div className="w-full px-5 sm:px-0 sm:w-[600px] h-full flex justify-center flex-col">
         <h2 className="text-lg text-[#fff] mb-2">
           I am a{" "}
-          <Typical
-            steps={["Frontend Web Developer.", 1000, "Web Designer", 1000]}
-            loop={Infinity}
-            wrapper="p"
-          />
+          <span className=" inline-block">
+            <Typical
+              steps={[
+                "Frontend Web Developer.",
+                2000,
+                "Web Designer",
+                2000,
+                "MERN Stack Developer",
+                2000,
+              ]}
+              loop={Infinity}
+              wrapper="p"
+            />
+          </span>
         </h2>
         <h1
           className="text-info text-4xl sm:text-6xl font-bold mb-4"
