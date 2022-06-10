@@ -1,0 +1,29 @@
+[
+  {
+    "_id": 1,
+    "name": "Tech House",
+    "live_link": "https://tech-house-c0b96.web.app/",
+    "git_client": "https://github.com/Akash7766/Tech-House_Menuafacturer-website-client-site",
+    "git_server": "https://github.com/Akash7766/Tech-House_manufacturer-website-server-site",
+    "image1": "https://i.ibb.co/QMcwnNw/tech-house.png",
+    "description": "Tech House ia a Manufactures Website. Customer can purchase any product and manage their order. There is a admin role. Admin can add,remove,update and handle customers order and reviews. For admin acces use email 'admin@gmail.com' and password '123456' ."
+  },
+  {
+    "_id": 2,
+    "name": "BIKE GHOR",
+    "live_link": "https://bike-ghor.web.app/",
+    "git_client": "https://github.com/Akash7766/Bike-ghor_ware-house-management-client-site",
+    "git_server": "https://github.com/Akash7766/Bike-Ghor_ware-house-management-server-side",
+    "image1": "https://i.ibb.co/bvfj9JV/bike-ghor.png",
+    "description": "BIKE GHOR ia a  Inventory Management Website. Customer can purchase any product and manage their order. There is a admin role. Admin can add,remove,update and handle customers order and reviews. For admin acces use email 'admin@gmail.com' and password '123456' ."
+  },
+  {
+    "_id": 3,
+    "name": "Wedding Events",
+    "live_link": "https://wedding-events-2e625.web.app/",
+    "git_client": "https://github.com/Akash7766/Wedding-events_Independent-service-provider",
+    "git_server": "",
+    "image1": "https://i.ibb.co/6FvN8RD/weding-events.png",
+    "description": "Wedding Events ia a Independent Service Provider Website. Customer can purchase any product and manage their order. There is a admin role. Admin can add,remove,update and handle customers order and reviews. For admin acces use email 'admin@gmail.com' and password '123456' ."
+  }
+]
